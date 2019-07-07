@@ -1,0 +1,27 @@
+﻿<Page 
+    x:Class="Culinars.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Culinars"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Transparent">
+        
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Text="WORK IN PROGRESS DEMO MADE BY EGEMEN GURAY" Width="188" Margin="0,0,100,0"/>
+        <Grid.RowDefinitions>
+            
+            <RowDefinition Height="*"/>
+            
+
+
+        </Grid.RowDefinitions>
+        
+    </Grid>
+    <Page.Transitions>
+        <TransitionCollection>
+            <EdgeUIThemeTransition Edge="Right"></EdgeUIThemeTransition>
+        </TransitionCollection>
+    </Page.Transitions>
+</Page>
